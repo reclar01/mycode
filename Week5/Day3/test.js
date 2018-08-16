@@ -1,6 +1,23 @@
-function testing(str){
+function getThemAll(obj,val){
+    let newArr = [];
+   for(key in obj){
+       console.log([key(obj[val])]);
+   }
+    
 
-    return 'This string has the value of ' + str;
+    return newArr
 }
 
-console.log(testing("People"));
+let addsNums = {
+    addTen: function(num) {
+      return num + 10;
+    },
+  
+    addTwenty: function(num) {
+      return num + 20;
+    },
+  
+    someProperty: 'value'
+  };
+
+  console.log(getThemAll(addsNums,10));

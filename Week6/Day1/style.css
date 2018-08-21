@@ -1,0 +1,17 @@
+img{
+    height:300px;
+}
+
+.blue{
+    color: white;
+    background-color: blue
+}
+
+#ball{
+    height: 40px;
+    width: 40px;
+    background: red;
+    margin: 50px auto;
+    border-radius: 20px;
+    position: relative;
+}

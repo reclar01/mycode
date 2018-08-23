@@ -2,10 +2,36 @@
 <html>
     <head>
         <title>This is a web page template</title>
-
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        this is a test
+        <form>
+            <p>First Name:</p>
+            <input type = "text" id="firstName"></input>
+            <p>Last Name:</p>
+            <input type="text" id="lastName"></input>
+            <p>Email Address</p>
+            <input type="email" id="email"></input>
+            <p>finger count</p>
+            <input type = "radio" name="fingers"id="rad" value= 1>'1 finger'
+            <input type = "radio" name="fingers"id="rad" value= 2>'2 fingers'
+            <input type = "radio" name="fingers"id="rad" value= 3>'3 fingers'
+            <input type = "radio" name="fingers"id="rad" value= 4>'4 fingers'
+            <input type = "radio" name="fingers"id="rad" value= 5>'5 fingers'
+            </input>
+            <p>Favorite Neal Stephenson novel</p>
+            <select>
+                <option name="sel" value="Diamond Age">the Diamond Age</option>
+                <option name="sel" value="Snow Crash">Snow Crash</option>
+                <option name="sel" value="Cryptonomicon">Cryptonomicon</option>
+                <option name="sel" value="ReamDe">ReamDe</option>
+                <option name="sel" value="Anathem">Anathem</option>
+              </select>
+            <br>
+            <br>
+            <button type="button" id="submit-button">Submit</button>
+        </form>
 
+    <script src='main.js'></script>
     </body>
 </html>
